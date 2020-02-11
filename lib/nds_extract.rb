@@ -22,7 +22,8 @@ def directors_totals(nds)
 #   nil
 # end
   result = {}
-  row_index = 0 row_index < nds.length do
+  row_index = 0 
+  while row_index < nds.length do
     movie_index = 0 
     total_gross = 0
     while movie_index < nds[row_index][:movies].length do 
